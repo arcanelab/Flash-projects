@@ -28,7 +28,6 @@ package
 			addChild(felirat);
 			
 			// CONTROL
-			//this.mouseChildren = false; // itt a 'this' nem kotelezo, de olvashatobb a kod vele (ezzel jelezhetjuk magunknak, hogy orokolt adattagot hasznalunk)
 			addEventListener(MouseEvent.MOUSE_DOWN, egerGombLe);
 			addEventListener(MouseEvent.MOUSE_UP, egerGombFel);
 		}
