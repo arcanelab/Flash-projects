@@ -59,7 +59,7 @@ package
 			
 			// itt megvizsgaljuk, hogy epp milyen objektumok vannak az egerkurzor alatt.
 			var found: Boolean = false;
-			var p:Point = new Point(x, y);
+			var p:Point = new Point(Main.self.mouseX, Main.self.mouseY);
 			var tmpArray: Array = Main.self.getObjectsUnderPoint(p); // tobb objektum is lehet alatta, igy egy tombot kell atnezni
 			if (tmpArray.length == 0) // ha nincs alatta semmi, akkor nem szabad folytatni
 				return;
